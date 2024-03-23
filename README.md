@@ -2,7 +2,7 @@
 ## Stack and Functionality
 __Stack__:
 
-__Framework__:
+__Framework:__
  -Django Rest Framework 
 __Database__:
  - PostgreSQL
