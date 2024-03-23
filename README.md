@@ -5,9 +5,9 @@ __Stack__:<br/>
 __Framework__:<br/>
  -Django Rest Framework<br/> 
 __Database__:<br/>
- - PostgreSQL<br/>
+ -PostgreSQL<br/>
 __Deployment__:<br/>
- - Docker Compose<br/>
+ -Docker Compose<br/>
 __Functionality__:<br/>
 
 1. Cargo Management:
