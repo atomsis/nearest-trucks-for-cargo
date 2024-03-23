@@ -1,14 +1,14 @@
 ## API for finding the nearest trucks to a given geographical point(spec for WelbeX)
-__Stack and Functionality__
-## Stack:
+## Stack and Functionality
+__Stack__:
 
-## Framework:
+__Framework__:
  -Django Rest Framework 
-## Database:
+__Database__:
  - PostgreSQL
-## Deployment:
+__Deployment__:
  - Docker Compose
-## Functionality:
+__Functionality__:
 
 1. Cargo Management:
 
