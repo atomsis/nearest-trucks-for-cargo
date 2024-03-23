@@ -1,5 +1,5 @@
 ## API for finding the nearest trucks to a given geographical point(spec for WelbeX)
-## Stack and Functionality
+__Stack and Functionality__
 ## Stack:
 
 ## Framework:
