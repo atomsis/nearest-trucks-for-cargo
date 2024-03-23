@@ -30,22 +30,21 @@ Functionality:
  - Filter the list of cargos by weight and distance to nearest trucks.
  - Automatic update of truck locations every 3 minutes.
 ## Sample Usage Scenarios:
-1. Scenario 1: Creating a New Cargo
-
+1. Scenario 1: Creating a New Cargo:
  - A user submits a request to create a new cargo, providing pick-up and delivery zip codes, weight, and description.
  - The system creates a new cargo entry in the database, assigning it a unique ID and determining pick-up and delivery locations based on the provided zip codes.
-2. Scenario 2: Retrieving Detailed Cargo Information
+2. Scenario 2: Retrieving Detailed Cargo Information:
 
  - A user requests detailed information about a specific cargo by providing its ID.
  - The system retrieves the cargo's details from the database, including pick-up and delivery locations, weight, description, and a list of all truck numbers with distances to the cargo.
-3. Scenario 3: Updating Truck Location
+3. Scenario 3: Updating Truck Location:
 
  - A user updates a truck's location by providing its ID and a new zip code.
  - The system updates the truck's location in the database based on the provided zip code.
-4. Scenario 4: Filtering Cargos
+4. Scenario 4: Filtering Cargos:
 
  - A user filters the list of cargos based on weight and distance to nearest trucks.
  - The system retrieves cargos from the database that meet the specified criteria and returns the filtered list to the user.
-5. Scenario 5: Automatic Location Update (Level 2)
+5. Scenario 5: Automatic Location Update:
 
  - Trucks' locations are automatically updated every 3 minutes, ensuring real-time data accuracy and reflecting the dynamic nature of truck movements.
