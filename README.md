@@ -35,19 +35,19 @@ __Functionality__:<br/>
 ## Sample Usage Scenarios:
 Scenario 1: Creating a New Cargo:
  - A user submits a request to create a new cargo, providing pick-up and delivery zip codes, weight, and description.
- - The system creates a new cargo entry in the database, assigning it a unique ID and determining pick-up and delivery locations based on the provided zip codes.
+ - The system creates a new cargo entry in the database, assigning it a unique ID and determining pick-up and delivery locations based on the provided zip codes.<br/>
 Scenario 2: Retrieving Detailed Cargo Information:
 
  - A user requests detailed information about a specific cargo by providing its ID.
- - The system retrieves the cargo's details from the database, including pick-up and delivery locations, weight, description, and a list of all truck numbers with distances to the cargo.
+ - The system retrieves the cargo's details from the database, including pick-up and delivery locations, weight, description, and a list of all truck numbers with distances to the cargo.<br/>
 Scenario 3: Updating Truck Location:
 
  - A user updates a truck's location by providing its ID and a new zip code.
- - The system updates the truck's location in the database based on the provided zip code.
+ - The system updates the truck's location in the database based on the provided zip code.<br/>
 Scenario 4: Filtering Cargos:
 
  - A user filters the list of cargos based on weight and distance to nearest trucks.
- - The system retrieves cargos from the database that meet the specified criteria and returns the filtered list to the user.
+ - The system retrieves cargos from the database that meet the specified criteria and returns the filtered list to the user.<br/>
 Scenario 5: Automatic Location Update:
 
  - Trucks' locations are automatically updated every 3 minutes, ensuring real-time data accuracy and reflecting the dynamic nature of truck movements.
